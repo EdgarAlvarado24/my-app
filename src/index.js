@@ -5,6 +5,8 @@ const Boton = (props) => <button onClick={props.answer}>{props.text}</button>
 
 
 //Quiero que esta mierda no me renderise hasta que no presione un boton aunque sea una vez
+//Como se supone que deberia renderizarse hecho de manera correcta
+//https://github.com/EdgarAlvarado24/my-app/blob/master/Captura%20desde%202023-01-06%2015-45-01.png
 const Statistics = (props) => {
   console.log(props.valor === 0);
   if(props.valor === 0){
