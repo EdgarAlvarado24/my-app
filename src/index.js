@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 const Boton = (props) => <button onClick={props.answer}>{props.text}</button>
 
 
-
+//Quiero que esta mierda no me renderise hasta que no presione un boton aunque sea una vez
 const Statistics = (props) => {
   console.log(props.valor === 0);
   if(props.valor === 0){
